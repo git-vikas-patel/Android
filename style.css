@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-body{
+    border: 3px solid black;
+    height: 30rem;
+    box-shadow: inset 0px 0 4px 2px black;
+    min-width: 15rem;
+    /* padding: 1rem; */
+    border-radius: 25px;
+    overflow: hidden;
+    background: url('./Images/wp7785090.webp') no-repeat center center ;
+    background-size: cover;
+}
+.top-notch{
+    position: relative;
+    margin: 0 auto;
+}
+.main-display{
+    height: 89%;
+    /* border:1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bottom-notch{
+  display: flex;   
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: auto;
+}
+.speaker{
+    height: .25rem;
+    border-radius: 10px;
+    width: 4rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+}
+.camera{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    float: right;
+    margin-right: 12px;
+    margin-top: 6px;
+    box-shadow: 0 0 5px 0 #fff
+}
+.navigation-btns{
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(71, 79, 87, 0.8);
+    overflow: hidden;
+    margin-bottom: -32px;
+}
+button{
+    height: 20px;
+    width: 20px;
+    /* border: 1px solid red; */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+}
+button img{
+    width: 12px;
+    filter: invert(1);
+    height: 12px;
+}
+.clock{
+   text-align: center;
+   margin-bottom: 30px;
+}
+.clock img{
+    height: 8rem;
+    filter: invert(1);
+}
+.google{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 7px 10px;
+    margin: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 4rem;
+}
+.google img{
+    height: 1rem;
+}
+.display-area{
+    width: 100%;
+    position: relative;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.icon img{
+    background-color: rgba(255, 255, 255, .2);
+    max-height: 2rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+hr {
+    width: 20%;
+    border: none;
+    border-top: 8px dotted #dcdede;
+  }
+  
+  .home-s{
+      /* gap: 10px; */
+      margin: 10px;
+  }
