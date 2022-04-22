@@ -3,7 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #333;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
