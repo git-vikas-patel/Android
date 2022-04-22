@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.phone-body{
+
+.phone-body {
     border: 3px solid black;
     height: 30rem;
     box-shadow: inset 0px 0 4px 2px black;
@@ -16,28 +17,32 @@ body{
     /* padding: 1rem; */
     border-radius: 25px;
     overflow: hidden;
-    background: url('./Images/wp7785090.webp') no-repeat center center ;
+    background: url('./Images/wp7785090.webp') no-repeat center center;
     background-size: cover;
 }
-.top-notch{
+
+.top-notch {
     position: relative;
     margin: 0 auto;
 }
-.main-display{
+
+.main-display {
     height: 89%;
     /* border:1px solid blue; */
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.bottom-notch{
-  display: flex;   
-  justify-content: center;
-  align-items: end;
-  width: 100%;
-  height: auto;
+
+.bottom-notch {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: auto;
 }
-.speaker{
+
+.speaker {
     height: .25rem;
     border-radius: 10px;
     width: 4rem;
@@ -47,7 +52,8 @@ body{
     transform: translateX(-50%);
     background-color: black;
 }
-.camera{
+
+.camera {
     height: 15px;
     width: 15px;
     background-color: black;
@@ -57,7 +63,8 @@ body{
     margin-top: 6px;
     box-shadow: 0 0 5px 0 #fff
 }
-.navigation-btns{
+
+.navigation-btns {
     padding: 5px 0;
     display: flex;
     justify-content: space-evenly;
@@ -67,7 +74,8 @@ body{
     overflow: hidden;
     margin-bottom: -32px;
 }
-button{
+
+button {
     height: 20px;
     width: 20px;
     /* border: 1px solid red; */
@@ -78,20 +86,24 @@ button{
     background-color: transparent;
 
 }
-button img{
+
+button img {
     width: 12px;
     filter: invert(1);
     height: 12px;
 }
-.clock{
-   text-align: center;
-   margin-bottom: 30px;
+
+.clock {
+    text-align: center;
+    margin-bottom: 30px;
 }
-.clock img{
+
+.clock img {
     height: 8rem;
     filter: invert(1);
 }
-.google{
+
+.google {
     display: flex;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, .9);
@@ -100,31 +112,42 @@ button img{
     border-radius: 20px;
     margin-bottom: 4rem;
 }
-.google img{
+
+.google img {
     height: 1rem;
 }
-.display-area{
+
+.display-area {
     width: 100%;
     position: relative;
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: space-between;
     margin: 20px;
 }
-.icon img{
+
+.icon img {
     background-color: rgba(255, 255, 255, .2);
     max-height: 2rem;
     padding: 5px;
     border-radius: 10px;
 }
+
 hr {
     width: 20%;
     border: none;
     border-top: 8px dotted #dcdede;
-  }
-  
-  .home-s{
-      /* gap: 10px; */
-      margin: 10px;
-  }
+}
+
+.main-page {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-s {
+    /* gap: 10px; */
+    margin: 10px;
+}
